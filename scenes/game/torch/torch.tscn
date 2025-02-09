@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://dabpv251ycvcs"]
+
+[ext_resource type="Texture2D" uid="uid://dkyax7nwtfrj7" path="res://assets/textures/light2.png" id="1_mria2"]
+
+[node name="Torch" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+shadow_enabled = true
+shadow_color = Color(0, 0, 0, 1)
+texture = ExtResource("1_mria2")
